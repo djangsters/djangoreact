@@ -1,0 +1,13 @@
+{
+  "name": "djangoreact",
+  "version": "1.0.0",
+  "author": "Michael Musangeya <michael@djangsters.de>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "yarn fe:install",
+    "fe:install": "cd frontend && yarn install",
+    "start": "cd frontend && yarn start",
+    "build": "cd frontend && yarn build",
+    "test": "cd frontend && yarn test"
+  }
+}
