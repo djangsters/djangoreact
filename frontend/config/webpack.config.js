@@ -570,6 +570,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appHtml,
+            filename: isEnvProduction ? '../../../templates/base-react.html' : 'index.html',
           },
           isEnvProduction
             ? {

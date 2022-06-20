@@ -18,3 +18,5 @@ dist/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+templates/base-react.html
